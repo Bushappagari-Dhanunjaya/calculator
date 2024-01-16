@@ -56,7 +56,7 @@ button {
 }
 .bg-hover{
     border: 50%;
-    cursor: pointer;
+    cursor: context-menu;
 }
 .equal {
     background-color: orange;
