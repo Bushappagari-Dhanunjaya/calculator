@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calc-container">
+        <div class="calc-header">
+        <input type="text" placeholder="0" id="op" >
+        
+     </div>
+    
+     <div class="Cal">
+ 
+  <button onclick="clr()" class="bg-hover">Clr</button>
+  <button onclick="del()" class="bg-hover">Del</button>
+  <button onclick="display('%')" class="bg-hover">%</button>
+  <button onclick="display('/')" class="bg-hover">/</button>
+  <button onclick="display('7')" class="numb bg-hover">7</button>
+  <button onclick="display('8')" class="numb bg-hover">8</button>
+  <button onclick="display('9')" class="numb bg-hover">9</button>
+  <button onclick="display('*')" class="bg-hover">*</button>
+  <button onclick="display('4')" class="numb bg-hover">4</button>
+  <button onclick="display('5')" class="numb bg-hover">5</button>
+  <button onclick="display('6')" class="numb bg-hover">6</button>
+  <button onclick="display('-')" class="bg-hover">-</button>
+  <button onclick="display('1')" class="numb bg-hover">1</button>
+  <button onclick="display('2')" class="numb bg-hover"  >2</button>
+  <button onclick="display('3')"class="numb bg-hover">3</button>
+  <button onclick="display('+')" class="bg-hover">+</button>
+  <button onclick="display('0')" class="numb bg-hover">0</button><button onclick="display('.')" class="bg-hover">.</button>
+ 
+  <button onclick="calculate()" class="equal">=</button>
+
+ </div>
+</div>
+
+     <script src="script.js"></script>
+</body>
+</html>

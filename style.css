@@ -1,0 +1,71 @@
+* {
+    background-color: black;
+}
+.calc-container{
+    margin-top: 80px;
+}
+
+
+.calc-header {
+    width: 300px;
+    margin: 10px auto;
+}
+
+input {
+    height: 50px;
+    width:99%;
+    text-align: end;
+    color: white;
+    border: 25px;
+    font-size: 30px;
+    border: 1px solid orange;
+    border-radius: 15px;
+    box-shadow: inset 2px 2px 8px orange;
+
+}
+
+
+.Cal {
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 70px);
+    background-color: black;
+    width: 300px;
+    border: 1px solid orange;
+    border-radius: 25px;
+
+}
+
+
+button {
+    background-color: black;
+    color: orange;
+    margin: 10px;
+    height: 55px;
+    width: 55px;
+    font-size: 20px;
+    border-style: none;
+    font-family: monospace;
+
+}
+
+
+.numb {
+    color: white;
+
+}
+.bg-hover{
+    border: 50%;
+    cursor: pointer;
+}
+.equal {
+    background-color: orange;
+    color: white;
+    border-radius: 30px;
+    height: 50px;
+    transition: 0.2s;
+    font-size: 30px;
+}
+.equal:hover{
+    cursor: pointer;
+}
